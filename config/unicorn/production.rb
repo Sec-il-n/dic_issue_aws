@@ -1,6 +1,7 @@
 $worker  = 2
 $timeout = 30
-$app_dir = "/var/www/dic_issue_aws/current"
+$app_dir = "/var/www/blog-production/current"
+# $app_dir = "/var/www/dic_issue_aws/current"
 $listen  = File.expand_path 'tmp/sockets/unicorn.sock', $app_dir
 $pid     = File.expand_path 'tmp/pids/unicorn.pid', $app_dir
 #エラーログのディレクトリ
