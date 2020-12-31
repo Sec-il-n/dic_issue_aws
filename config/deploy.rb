@@ -1,23 +1,13 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.14.1"
-
-<<<<<<< HEAD
-set :application, "dic_issue_aws"#<-github?
-=======
 set :application, "blog-production"#<-EC2インスタンス名"
 # set :application, "dic_issue_aws"#<-github
->>>>>>> capistranoデプロイ 設定ファイル編集(未 config/secrets.yml)
 set :repo_url, "git@github.com:Sec-il-n/dic_issue_aws.git"
-
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-<<<<<<< HEAD
-set :deploy_to, "/var/www/dic_issue_aws"# memo: instance名はblog-production
-=======
 set :deploy_to, "/var/www/blog-production"# memo: instance名
->>>>>>> capistranoデプロイ 設定ファイル編集(未 config/secrets.yml)
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
